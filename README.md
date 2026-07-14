@@ -42,5 +42,10 @@ Para fins de auditoria interna, seguem as informações de rede locais extraída
        valid_lft 3215sec preferred_lft 3215sec
     inet6 fe80::8aa:62ff:fe14:f3b/64 scope link 
        valid_lft forever preferred_lft forever
+```text
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 ...
+...
+inet6 fe80::8aa:62ff:fe14:f3b/64 scope link
+```
 
 ![image alt](https://github.com/evacatarina/sessao---01/blob/cca61dbf4f8dcb18d4c37950a1ce1556d7f806bc/Captura%20de%20ecr%C3%A3%202026-07-14%20205232.png)
