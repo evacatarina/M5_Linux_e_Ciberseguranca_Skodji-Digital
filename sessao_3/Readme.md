@@ -3,7 +3,7 @@
 ---
 ### Passo 1
 
-**Exercício 1** - Verificar o ´status´atual do UFW.    
+**Exercício 1** - Verificar o 'status atual' do UFW.    
 
 Utilizei o comando 'sudo ufw status' para verificar o estado da firewall.
 
@@ -14,7 +14,7 @@ Utilizei o comando 'sudo ufw status' para verificar o estado da firewall.
 **Exercício 2** - Alterar as políticas padrão: bloquear entrada, permitir saída.  
 
 Usei configuração padrão de segurança, bloqueando por padrão as de entradas e permitindo apenas as requisições de saída.  
-Alterei as políticas padrão — bloquear entrada com o comando ´sudo ufw default deny incoming´ e permitir saída com o comando ´sudo ufw default allow outcoming´.
+Alterei as políticas padrão — bloquear entrada com o comando 'sudo ufw default deny incoming' e permitir saída com o comando 'sudo ufw default allow outcoming'.
 
 ![image alt](https://github.com/evacatarina/M5_Linux_e_Ciberseguranca_Skodji-Digital/blob/80b30589113f62c773fdf53fba081e21f18f7910/sessao_3/politicas%20padrao.png)
 
@@ -29,7 +29,7 @@ Alterei as políticas padrão — bloquear entrada com o comando ´sudo ufw defa
 ![image alt](https://github.com/evacatarina/M5_Linux_e_Ciberseguranca_Skodji-Digital/blob/a0fe9d6f9e7a7c63a156e4a90edc8f0158d302e7/sessao_3/simulacao%20bloqueio.png)
 
 Para verificar o bloqueio, executei o comando abaixo em que teve esta saída.  
-Em que o IP malicioso ´203.0.113.50´ foi bloqueado e ignorado silenciosamente pelo comando ´DROP´, assim o firewall está blindado contra este endereço. Se o IP fictício estivesse tentando enviar pacotes, a coluna pkts (pacotes) começaria a aumentar.  
+Em que o IP malicioso '203.0.113.50' foi bloqueado e ignorado silenciosamente pelo comando 'DROP' assim o firewall está blindado contra este endereço. Se o IP fictício estivesse tentando enviar pacotes, a coluna pkts (pacotes) começaria a aumentar.  
 
 ![image alt](https://github.com/evacatarina/M5_Linux_e_Ciberseguranca_Skodji-Digital/blob/523010f2609895129543e781ef595265374b88de/sessao_3/conf%20simulacao.png).
 
@@ -39,10 +39,10 @@ Em que o IP malicioso ´203.0.113.50´ foi bloqueado e ignorado silenciosamente 
 ![image alt](https://github.com/evacatarina/M5_Linux_e_Ciberseguranca_Skodji-Digital/blob/00ddf7a8e26efeb0196ac5b2ba9822884f361d76/sessao_3/iptables%20save.png)
 
 Para finalizar também foi solicitado os outputs dos comandos:  
--´ufw status verbose´:  
+-'ufw status verbose':  
 
 ![image alt](https://github.com/evacatarina/M5_Linux_e_Ciberseguranca_Skodji-Digital/blob/4501b0a2193d2047a7d80c9494252d2e77f1d187/sessao_3/status%20verbose.png)
 
-- ´iptables -L -v´
+-'iptables -L -v':
 
-![image alt]()
+![image alt](https://github.com/evacatarina/M5_Linux_e_Ciberseguranca_Skodji-Digital/blob/f6c092d703058baccc5eba51400f3602b4fb1439/sessao_3/iptables%20L%20V.png)
