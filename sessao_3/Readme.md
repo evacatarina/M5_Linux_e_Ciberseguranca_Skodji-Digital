@@ -46,3 +46,28 @@ Para finalizar também foi solicitado os outputs dos comandos:
 -`iptables -L -v`:
 
 ![image alt](https://github.com/evacatarina/M5_Linux_e_Ciberseguranca_Skodji-Digital/blob/f6c092d703058baccc5eba51400f3602b4fb1439/sessao_3/iptables%20L%20V.png)
+
+### Explicação da Política de Segurança Aplicada
+A política de segurança implementada baseia-se no princípio do privilégio mínimo e na estratégia de defesa em profundidade, combinando a simplicidade do UFW (Uncomplicated Firewall) com o controlo granular do iptables.
+
+Abaixo detalha-se o que está bloqueado, o que está permitido e as respetivas justificações técnicas:
+
+## Tráfego de Entrada (Incoming): Bloqueado por Padrão
+O que foi feito: Configuração da política padrão para rejeitar conexões de entrada (sudo ufw default deny incoming).
+
+Porquê: Esta é a regra de ouro da segurança de redes. Ao bloquear todo o tráfego de entrada por omissão, blindamos o sistema contra varreduras de portas (port scanning) e tentativas de ligação não autorizadas a serviços internos que possam estar vulneráveis ou mal configurados.
+
+## Tráfego de Saída (Outgoing): Permitido por Padrão
+O que foi feito: Configuração da política padrão para permitir conexões de saída (sudo ufw default allow outgoing).
+
+Porquê: Garante que o próprio servidor e os seus utilizadores legítimos possam comunicar com o exterior sem restrições imediatas (para atualizações de sistema, consultas de DNS, navegação web, etc.), mantendo a operacionalidade do sistema.
+
+## Acesso SSH (Porta Padrão): Exceção Permitida
+O que foi feito: Criação de uma regra específica para abrir a porta padrão do SSH (geralmente a porta 22/tcp).
+
+Porquê: Como o tráfego de entrada está todo bloqueado, foi necessário abrir uma exceção controlada para que os administradores não perdessem o acesso remoto ao servidor. O SSH é a única "porta de entrada" legítima mantida aberta nesta fase.
+
+## Bloqueio Direto de IP Malicioso (iptables): Filtragem Alvo
+O que foi feito: Adição de uma regra na chain INPUT do iptables para barrar especificamente o IP fictício 203.0.113.50 usando a ação DROP.
+
+O que significa o DROP: Ao contrário da ação REJECT (que avisa o remetente de que a ligação foi recusada), o DROP descarta o pacote de forma completamente silenciosa. O atacante fica sem saber se o servidor está online ou se há uma firewall a protegê-lo, o que atrasa a análise do invasor e consome os seus recursos computacionais.
