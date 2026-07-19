@@ -33,3 +33,7 @@ Em que o IP malicioso ´203.0.113.50´ foi bloqueado e ignorado silenciosamente 
 
 ![image alt](https://github.com/evacatarina/M5_Linux_e_Ciberseguranca_Skodji-Digital/blob/523010f2609895129543e781ef595265374b88de/sessao_3/conf%20simulacao.png).
 
+### Passo 5 
+**Exercício 5** - Guardar o estado persistente do iptables.
+
+
