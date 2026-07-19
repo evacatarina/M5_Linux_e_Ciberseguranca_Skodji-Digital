@@ -21,4 +21,4 @@ Alterei as políticas padrão — bloquear entrada com o comando ´sudo ufw defa
 ### Passo 3 
 **Exercício 3** - Criar uma regra específica para permitir acesso SSH apenas na porta padrão.
 
-![image alt]( )
+![image alt](https://github.com/evacatarina/M5_Linux_e_Ciberseguranca_Skodji-Digital/blob/d9e06edd0f62477d2cd763186942ea758222536d/sessao_3/porta%20padrao.png)
