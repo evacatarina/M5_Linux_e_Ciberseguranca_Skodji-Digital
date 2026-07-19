@@ -37,3 +37,5 @@ Em que o IP malicioso ´203.0.113.50´ foi bloqueado e ignorado silenciosamente 
 **Exercício 5** - Guardar o estado persistente do iptables.
 
 ![image alt](https://github.com/evacatarina/M5_Linux_e_Ciberseguranca_Skodji-Digital/blob/00ddf7a8e26efeb0196ac5b2ba9822884f361d76/sessao_3/iptables%20save.png)
+
+Para finalizar também foi solicitado os outputs dos comandos ´ufw status verbose´ e ´iptables -L -v´.
