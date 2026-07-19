@@ -1,0 +1,10 @@
+# Laboratório — Sessão 3
+## Hardening de Redes Linux e Configuração de Firewalls
+---
+### Passo 1
+(colocar o print)
+Utilizei o comando 'sudo ufw status' para verificar o estado da firewall.
+
+### Passo 2
+( colocar o print)
+Alterarei as políticas padrão — bloquear entrada com o comando ´sudo ufw default deny incoming´ e permitir saída com o comando ´sudo ufw default allow outcoming´.
