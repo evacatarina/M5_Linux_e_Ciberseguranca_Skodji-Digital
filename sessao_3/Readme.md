@@ -3,7 +3,7 @@
 ---
 ### Passo 1
 
-**Exercício 1** - Verificar o 'status atual' do UFW.    
+**Exercício 1** - Verificar o`status atual`do UFW.    
 
 Utilizei o comando 'sudo ufw status' para verificar o estado da firewall.
 
