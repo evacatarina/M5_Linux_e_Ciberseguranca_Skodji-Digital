@@ -3,7 +3,7 @@
 ---
 ### Passo 1
 Utilizei o comando 'sudo ufw status' para verificar o estado da firewall.
-https://github.com/evacatarina/M5_Linux_e_Ciberseguranca_Skodji-Digital/blob/c84d83c7200a4246bfa794de1ababa4037bab947/sessao_3/estado%20atual.png
+![image] https://github.com/evacatarina/M5_Linux_e_Ciberseguranca_Skodji-Digital/blob/c84d83c7200a4246bfa794de1ababa4037bab947/sessao_3/estado%20atual.png.
 
 ### Passo 2
 ( colocar o print)
