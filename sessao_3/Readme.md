@@ -21,11 +21,9 @@ Alterei as políticas padrão — bloquear entrada com o comando ´sudo ufw defa
 ### Passo 3 
 **Exercício 3** - Criar uma regra específica para permitir acesso SSH apenas na porta padrão.
 
-![image alt](https://github.com/evacatarina/M5_Linux_e_Ciberseguranca_Skodji-Digital/blob/a0fe9d6f9e7a7c63a156e4a90edc8f0158d302e7/sessao_3/simulacao%20bloqueio.png).
-
 ![image alt](https://github.com/evacatarina/M5_Linux_e_Ciberseguranca_Skodji-Digital/blob/d9e06edd0f62477d2cd763186942ea758222536d/sessao_3/porta%20padrao.png)
 
 ### Passo 4
 **Exercício 4** - Simular o bloqueio de um IP malicioso fictício na chain INPUT do iptables.
 
-
+![image alt](https://github.com/evacatarina/M5_Linux_e_Ciberseguranca_Skodji-Digital/blob/a0fe9d6f9e7a7c63a156e4a90edc8f0158d302e7/sessao_3/simulacao%20bloqueio.png).
