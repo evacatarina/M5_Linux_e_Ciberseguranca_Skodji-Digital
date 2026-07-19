@@ -38,4 +38,11 @@ Em que o IP malicioso ´203.0.113.50´ foi bloqueado e ignorado silenciosamente 
 
 ![image alt](https://github.com/evacatarina/M5_Linux_e_Ciberseguranca_Skodji-Digital/blob/00ddf7a8e26efeb0196ac5b2ba9822884f361d76/sessao_3/iptables%20save.png)
 
-Para finalizar também foi solicitado os outputs dos comandos ´ufw status verbose´ e ´iptables -L -v´.
+Para finalizar também foi solicitado os outputs dos comandos:  
+-´ufw status verbose´:  
+
+![image alt](https://github.com/evacatarina/M5_Linux_e_Ciberseguranca_Skodji-Digital/blob/4501b0a2193d2047a7d80c9494252d2e77f1d187/sessao_3/status%20verbose.png)
+
+- ´iptables -L -v´
+
+![image alt]()
