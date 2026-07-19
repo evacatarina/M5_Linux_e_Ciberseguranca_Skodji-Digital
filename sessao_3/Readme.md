@@ -8,6 +8,6 @@ Utilizei o comando 'sudo ufw status' para verificar o estado da firewall.
 
 ### Passo 2
 Usei configuração padrão de segurança, bloqueandopor padrão as de entradas e permitindo apenas as requisições de saída.
-Alterei as políticas padrão — bloquear entrada com o comando ´sudo ufw default deny incoming´ e permitir saída com o comando ´sudo ufw default allow outcoming´.
+*Alterei as políticas padrão — bloquear entrada com o comando ´sudo ufw default deny incoming´ e permitir saída com o comando ´sudo ufw default allow outcoming´.
 
 ![image alt](https://github.com/evacatarina/M5_Linux_e_Ciberseguranca_Skodji-Digital/blob/80b30589113f62c773fdf53fba081e21f18f7910/sessao_3/politicas%20padrao.png)
