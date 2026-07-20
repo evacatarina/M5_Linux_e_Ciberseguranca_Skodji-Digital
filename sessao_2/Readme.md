@@ -35,9 +35,10 @@ Utilizei o comando `cd /var/log/`.
 ![image alt](https://github.com/evacatarina/M5_Linux_e_Ciberseguranca_Skodji-Digital/blob/794ba13a3e30b51143444fd891404eaf8021cf09/sessao_2/Captura%20de%20ecr%C3%A3%202026-07-19%20191900.png)
 
 ---
-O IP do atacante identificado  
-A hora exata do comprometimento (timestamp)  
-O utilizador afetado  
-Breve linha temporal do ataque (tentativas falhadas → sucesso)
+Pode verificar na imagem do Passo 2:  
+O IP do atacante identificado - 10.129.131.96  
+A hora exata do comprometimento (timestamp) - 2026.07.19 T 20:07:23     
+O utilizador afetado - ubuntu  
+Breve linha temporal do ataque (tentativas falhadas → sucesso) - como tive apenas 1 tentativa, por falha do simulador, como constado na imagem.
 
 
