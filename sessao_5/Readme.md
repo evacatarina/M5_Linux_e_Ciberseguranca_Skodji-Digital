@@ -1,1 +1,35 @@
+# Laboratório — Sessão 5
+## Análise de Vulnerabilidades em Linux e Ferramentas de Auditoria
+### Contexto  
+Execução de um exame de auditoria técnica automatizada para identificar desvios de conformidade em relação aos standards de segurança recomendados (CIS Benchmarks).  
+O Ambiente Virtual utilizado foi o KillerCoda Ubuntu Playground.
+
+---
+
+### Passo 1
+
+**Exercício 1** - Atualizar a árvore de pacotes e instalar o Lynis.    
+
+Para realizar este exercício utilizei o comando `sudo apt update && sudo apt install lynis -y`.
+
+![image alt]().
+
+---
+
+### Passo 2
+
+**Exercício 2** - Iniciar a auditoria completa do sistema operativo.  
+
+Quando você executa o comando `sudo lynis audit system`, o Lynis realiza uma auditoria completa de segurança e conformidade diretamente no seu sistema operacional.   
+
+![image alt]()
+
+---
+
+Após executar o comando `sudo lynis audit system`, é necessário aguardar a conclusão do processo e analisar minuciosamente o output exibido no terminal.  
+
+Ao término do escaneamento, a ferramenta apresenta no terminal:
+- Warnings (Alertas): Problemas de segurança críticos que exigem atenção imediata.
+- Suggestions (Sugestões): Recomendações de boas práticas para aumentar a proteção do sistema.
+- Hardening Index: A sua pontuação global de segurança (de 0 a 100).
 
