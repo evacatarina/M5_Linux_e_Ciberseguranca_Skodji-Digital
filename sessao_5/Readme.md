@@ -29,6 +29,7 @@ Após executar o comando `sudo lynis audit system`, é necessário aguardar a co
 
 Ao término do escaneamento, a ferramenta apresenta no terminal:  
 - Hardening Index: A sua pontuação global de segurança (de 0 a 100);
+  
   ![image alt](https://github.com/evacatarina/M5_Linux_e_Ciberseguranca_Skodji-Digital/blob/2b1b7cefa1993e200b4f0d9a5d760305d6a7ea3b/sessao_5/lynis%20details.png)
 
 - Warnings (Alertas): Problemas de segurança críticos que exigem atenção imediata;
