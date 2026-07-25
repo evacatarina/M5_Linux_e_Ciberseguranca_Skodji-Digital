@@ -44,7 +44,7 @@ Ao término do escaneamento, a ferramenta apresenta no terminal:
 
 Como critério de entrega:
 - Foi requisitado a escolha 2 Suggestions críticas apresentadas na área de Authentication ou Filesystem e pesquisar a correção recomendada (base de dados Cisofy).
-  ### Abaixo Suggestion 1 e a devida correção:
+  Abaixo Suggestion 1 e a devida correção:
 
 ![image alt](https://github.com/evacatarina/M5_Linux_e_Ciberseguranca_Skodji-Digital/blob/628c524692671cdb467dfbb699ad68b771c4dacf/sessao_5/sugg%201.png)  
 ```
@@ -58,7 +58,7 @@ your ITIL problem management. Especially unauthorized changes
 need a root cause analysis, or trigger incident response.
 ```
 
- ### Abaixo Suggestion 2 e a devida correção:
+  Abaixo Suggestion 2 e a devida correção:
 
 ![image alt](https://github.com/evacatarina/M5_Linux_e_Ciberseguranca_Skodji-Digital/blob/de8e6e60862e60f67b2ecfa3b7b126cf42006707/sessao_5/sugg%202.png)  
 ```
