@@ -43,7 +43,7 @@ Ao término do escaneamento, a ferramenta apresenta no terminal:
 ---
 
 Como critério de entrega:
-## Foi requisitado a escolha 2 Suggestions críticas apresentadas na área de Authentication ou Filesystem e pesquisar a correção recomendada (base de dados Cisofy).
+- Foi requisitado a escolha 2 Suggestions críticas apresentadas na área de Authentication ou Filesystem e pesquisar a correção recomendada (base de dados Cisofy).
   ### Abaixo Suggestion 1 e a devida correção:
 
 ![image alt](https://github.com/evacatarina/M5_Linux_e_Ciberseguranca_Skodji-Digital/blob/628c524692671cdb467dfbb699ad68b771c4dacf/sessao_5/sugg%201.png)  
@@ -82,7 +82,7 @@ authentication and passwords. Consider upgrading if password
 strength and aging are important aspects for your environment.
 ```
 
-## Incluir excerto do relatório Lynis ( /var/log/lynis-report.dat ou output do terminal)
+- Incluir excerto do relatório Lynis ( /var/log/lynis-report.dat ou output do terminal).
 
 ![image alt](https://github.com/evacatarina/M5_Linux_e_Ciberseguranca_Skodji-Digital/blob/27aa7a7171bad474bb0e18d53dc08fd8a351944e/lynus%20security%20scan%20details.png) 
 
