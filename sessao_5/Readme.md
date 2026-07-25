@@ -33,7 +33,8 @@ Ao término do escaneamento, a ferramenta apresenta no terminal:
   ![image alt](https://github.com/evacatarina/M5_Linux_e_Ciberseguranca_Skodji-Digital/blob/2b1b7cefa1993e200b4f0d9a5d760305d6a7ea3b/sessao_5/lynis%20details.png)
 
 - Warnings (Alertas): Problemas de segurança críticos que exigem atenção imediata;
-  ![image alt]()
+  
+  ![image alt](https://github.com/evacatarina/M5_Linux_e_Ciberseguranca_Skodji-Digital/blob/649c699d3f12b894a84326ed7d2832cab595336c/sessao_5/warnings.png)
 
 - Suggestions (Sugestões): Recomendações de boas práticas para aumentar a proteção do sistema.
   ![image alt]()
