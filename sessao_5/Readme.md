@@ -37,7 +37,8 @@ Ao término do escaneamento, a ferramenta apresenta no terminal:
   ![image alt](https://github.com/evacatarina/M5_Linux_e_Ciberseguranca_Skodji-Digital/blob/649c699d3f12b894a84326ed7d2832cab595336c/sessao_5/warnings.png)
 
 - Suggestions (Sugestões): Recomendações de boas práticas para aumentar a proteção do sistema.
-  ![image alt]()
+  
+  ![image alt](https://github.com/evacatarina/M5_Linux_e_Ciberseguranca_Skodji-Digital/blob/deac87ac83bbb13bbcd9b1a665ce4d49abd895f1/sessao_5/suggestions.png)
 
 
 
