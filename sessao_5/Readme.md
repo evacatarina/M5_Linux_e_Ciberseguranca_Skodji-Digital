@@ -51,7 +51,7 @@ Como critério de entrega, foi requisitado a escolha 2 Suggestions críticas apr
  ### Abaixo Suggestion 2 e a devida correção:
 
 ![image alt](https://github.com/evacatarina/M5_Linux_e_Ciberseguranca_Skodji-Digital/blob/de8e6e60862e60f67b2ecfa3b7b126cf42006707/sessao_5/sugg%202.png)  
-  ![image alt]() 
+  ![image alt](https://github.com/evacatarina/M5_Linux_e_Ciberseguranca_Skodji-Digital/blob/50f9f1b82348bacd078e89ce295f823a3b68fa7b/sessao_5/corr%202.png) 
   
 
   
