@@ -22,7 +22,7 @@ Para realizar este exercício utilizei o comando `sudo apt update && sudo apt in
 
 Quando você executa o comando `sudo lynis audit system`, o Lynis realiza uma auditoria completa de segurança e conformidade diretamente no seu sistema operacional.   
 
-![image alt]()
+![image alt](https://github.com/evacatarina/M5_Linux_e_Ciberseguranca_Skodji-Digital/blob/969aebfe6fa1c140d0f9db760b72d8cf68974715/sessao_5/lynis%20audit.png)
 
 ---
 
