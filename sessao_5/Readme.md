@@ -43,7 +43,7 @@ Ao término do escaneamento, a ferramenta apresenta no terminal:
 ---
 
 Como critério de entrega:
-- Foi requisitado a escolha 2 Suggestions críticas apresentadas na área de Authentication ou Filesystem e pesquisar a correção recomendada (base de dados Cisofy).
+- Foi requisitado a escolha 2 Suggestions críticas apresentadas na área de Authentication ou Filesystem e pesquisar a correção recomendada (base de dados Cisofy).  
   Abaixo Suggestion 1 e a devida correção:
 
 ![image alt](https://github.com/evacatarina/M5_Linux_e_Ciberseguranca_Skodji-Digital/blob/628c524692671cdb467dfbb699ad68b771c4dacf/sessao_5/sugg%201.png)  
