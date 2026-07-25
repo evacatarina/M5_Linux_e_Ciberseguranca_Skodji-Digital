@@ -21,15 +21,21 @@ Para realizar este exercício utilizei o comando `sudo apt update && sudo apt in
 **Exercício 2** - Iniciar a auditoria completa do sistema operativo.  
 
 Quando você executa o comando `sudo lynis audit system`, o Lynis realiza uma auditoria completa de segurança e conformidade diretamente no seu sistema operacional.   
-
 ![image alt](https://github.com/evacatarina/M5_Linux_e_Ciberseguranca_Skodji-Digital/blob/969aebfe6fa1c140d0f9db760b72d8cf68974715/sessao_5/lynis%20audit.png)
 
 ---
 
 Após executar o comando `sudo lynis audit system`, é necessário aguardar a conclusão do processo e analisar minuciosamente o output exibido no terminal.  
 
-Ao término do escaneamento, a ferramenta apresenta no terminal:
-- Warnings (Alertas): Problemas de segurança críticos que exigem atenção imediata.
+Ao término do escaneamento, a ferramenta apresenta no terminal:  
+- Hardening Index: A sua pontuação global de segurança (de 0 a 100);
+  ![image alt]()
+
+- Warnings (Alertas): Problemas de segurança críticos que exigem atenção imediata;
+  ![image alt]()
+
 - Suggestions (Sugestões): Recomendações de boas práticas para aumentar a proteção do sistema.
-- Hardening Index: A sua pontuação global de segurança (de 0 a 100).
+  ![image alt]()
+
+
 
