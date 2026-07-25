@@ -12,7 +12,7 @@ O Ambiente Virtual utilizado foi o KillerCoda Ubuntu Playground.
 
 Para realizar este exercício utilizei o comando `sudo apt update && sudo apt install lynis -y`.
 
-![image alt]().
+![image alt](https://github.com/evacatarina/M5_Linux_e_Ciberseguranca_Skodji-Digital/blob/5457b67ddcd491e719927d8945e4fe06c8eeceda/sessao_5/update%20install%20lynis.png).
 
 ---
 
