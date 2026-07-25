@@ -60,8 +60,26 @@ need a root cause analysis, or trigger incident response.
  ### Abaixo Suggestion 2 e a devida correção:
 
 ![image alt](https://github.com/evacatarina/M5_Linux_e_Ciberseguranca_Skodji-Digital/blob/de8e6e60862e60f67b2ecfa3b7b126cf42006707/sessao_5/sugg%202.png)  
-  ![image alt](https://github.com/evacatarina/M5_Linux_e_Ciberseguranca_Skodji-Digital/blob/50f9f1b82348bacd078e89ce295f823a3b68fa7b/sessao_5/corr%202.png) 
-  
+```
+# How to solve
+Passwords are a key component to authenticate users to Linux
+systems. Passwords need to be of a good quality, to prevent so-
+called brute-forcing attacks. In such case, easy passwords can be
+quickly guessed, resulting in a possible intrusion. The strength of
+passwords is determined by the length and variety of characters,
+including capitals, numbers, and special characters.
+Besides the strength, it is good to use password aging. This means a
+password can only be used for a specific duration of time before the
+user has to change it again. This enforces them to change it on a
+regular basis, having hopefully a bigger variety in passwords used
+on the system and other services.
+Password aging is not always needed on the Linux system itself. For
+example, when using two-factor authentication, central
+authentication with LDAP or Radius.
+For Lynis Enterprise users we have additional tests regarding
+authentication and passwords. Consider upgrading if password
+strength and aging are important aspects for your environment.
+```
 
   
 
