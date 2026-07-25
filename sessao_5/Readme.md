@@ -46,9 +46,8 @@ Como critério de entrega, foi requisitado a escolha 2 Suggestions críticas apr
   ### Abaixo Suggestion 1 e a devida correção:
 
 ![image alt](https://github.com/evacatarina/M5_Linux_e_Ciberseguranca_Skodji-Digital/blob/628c524692671cdb467dfbb699ad68b771c4dacf/sessao_5/sugg%201.png)  
-
 ```
-### How to solve
+# How to solve
 Install a tool like AIDE to help monitoring file changes. Good
 monitoring will ensure that both authorized changes are properly
 documented, and unauthorized changes are detected early.
