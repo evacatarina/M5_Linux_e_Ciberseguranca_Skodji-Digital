@@ -15,12 +15,13 @@ Para verificar os serviços e portas ativos no sistema, foram executados os coma
 ![image alt](https://github.com/evacatarina/M5_Linux_e_Ciberseguranca_Skodji-Digital/blob/8bb2a8178e380388c5e655e6c6d0958302c573a2/sessao_6/ss%20tuln.png).
 
 Com o output desse comando foi possível analisar as Portas e Serviços:  
-- Portas expostas externamente (0.0.0.0):
-  Porta 22/tcp (SSH) — Ativa para gestão remota.
+Portas expostas externamente (0.0.0.0):  
+  Porta 22/tcp (SSH) — Ativa para gestão remota;  
   Porta 80/tcp (HTTP) — Servidor Web ativo na rede.
-- Serviços locais (Loopback 127.0.0.1):
-  Porta 5901/tcp (VNC) e 631/tcp (CUPS Printer) a rodar localmente.
-Como recomendação, é necessário que a firewall UFW deva garantir o bloqueio de tráfego de entrada em todas as portas não essenciais (como a porta 80, se o objetivo for manter apenas acesso administrativo por SSH na porta 22).
+Serviços locais (Loopback 127.0.0.1):  
+  Porta 5901/tcp (VNC) e 631/tcp (CUPS Printer) a rodar localmente.  
+Como recomendação, é necessário que a firewall UFW deva garantir o bloqueio de tráfego de entrada em todas as portas não essenciais (como a porta 80, se o objetivo for manter apenas acesso administrativo por SSH na porta 22).  
+
 
 - `nmap`   
 Foi digitado o comando `nmap-sV localhost` mas o output diz que não há conexão a internet, por isso não foi possível a execução do comando. Na 2ª imagem, é possível visualizar que houve uma tentativa de instalar o `nmap` mas sem sucesso.  
