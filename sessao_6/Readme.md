@@ -77,7 +77,7 @@ Foi efetuada o comando `sudo apt update && sudo apt upgrade -y` que faz a atuali
 
 Foi digitado o comando `sudo lynis audit system` mas o output diz que não há conexão a internet, por isso não foi possível a execução do comando. É possível visualizar que houve uma tentativa de instalar o `lynis` mas sem sucesso.  
 
- ![image alt]()
+ ![image alt](https://github.com/evacatarina/M5_Linux_e_Ciberseguranca_Skodji-Digital/blob/efa98eaa20acf43a06b2c407629c45ace735e5e3/sessao_6/lynis.png)
 
 
  
