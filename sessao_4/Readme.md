@@ -66,7 +66,9 @@ Antes de reiniciar o serviço, foi executada a verificação de sintaxe para gar
 
 Após a confirmação sem erros de sintaxe, o serviço SSH foi reiniciado.  
 
-![image alt](https://github.com/evacatarina/M5_Linux_e_Ciberseguranca_Skodji-Digital/blob/3d77e853922e144a6cf017f2585b38fb059b5184/sessao_4/fase%206.jpeg)
+![image alt](https://github.com/evacatarina/M5_Linux_e_Ciberseguranca_Skodji-Digital/blob/3d77e853922e144a6cf017f2585b38fb059b5184/sessao_4/fase%206.jpeg)  
+
+![image alt](https://github.com/evacatarina/M5_Linux_e_Ciberseguranca_Skodji-Digital/blob/c4d9afd680f89b1ec023443a87e124ae791f00de/sessao_4/status%20ssh.jpeg)
 
 ---
 
