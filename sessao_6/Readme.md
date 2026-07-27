@@ -23,7 +23,7 @@ Foi digitado o comando `nmap-sV localhost` mas o output diz que não há conexã
 
  Foi realizada a auditoria de contas do sistema para identificar privilégios excessivos, contas sem palavra-passe e chaves SSH não autorizadas, com os comandos `sudo cat /etc/shadow | awk -F: '($2==""){print $1}'` e `cat ~/.ssh/authorized_keys` (respetivamente):  
 
-  ![image alt]()
+  ![image alt](https://github.com/evacatarina/M5_Linux_e_Ciberseguranca_Skodji-Digital/blob/332efbbcf0b59039f77bb6e1a9ad49b596869f5a/sessao_6/fase%201.2.png)
  
 
  
