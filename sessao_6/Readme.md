@@ -11,4 +11,4 @@ Auditoria e enrijecimento do servidor Ubuntu ("Linux Agency")
 
 Para verificar os serviços e portas ativos no sistema, foram executados os comandos `ss` e `nmap`:
 
-![image alt](https://github.com/evacatarina/M5_Linux_e_Ciberseguranca_Skodji-Digital/blob/5457b67ddcd491e719927d8945e4fe06c8eeceda/sessao_5/update%20install%20lynis.png).
+![image alt](https://github.com/evacatarina/M5_Linux_e_Ciberseguranca_Skodji-Digital/blob/8bb2a8178e380388c5e655e6c6d0958302c573a2/sessao_6/ss%20tuln.png).
