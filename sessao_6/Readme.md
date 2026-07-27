@@ -48,7 +48,38 @@ Foi digitado o comando `nmap-sV localhost` mas o output diz que não há conexã
 
 Para a realização dessa fase, foram usadas os seguintes comandos: `sudo ufw default deny incoming`, `sudo ufw allow 22/tcp` e `sudo ufw enable`.
 
- ![image alt]()  
+ ![image alt](https://github.com/evacatarina/M5_Linux_e_Ciberseguranca_Skodji-Digital/blob/841a2a49ca76140d7bebe800ae4c2094c67b9855/sessao_6/fase%202.png)  
+
+Foi definida a regra de segurança principal da firewall ( `sudo ufw default deny incoming`), que bloquea qualquer tentativa de ligação de fora para dentro do servidor por padrão.  
+Com a regra explícita do comando `sudo ufw allow 22/tcp`, é permitido o tráfego de entrada apenas na porta 22/tcp (SSH) para manter o acesso administrativo.  
+É possível visualizar que o estado da Firewall (`sudo ufw enable`) foi ativada com sucesso (active) e configurada para iniciar automaticamente com o sistema.  
+
+---
+
+ ## Fase 3: Enrijecimento / Remediação
+
+### 3.1 Corrigir a configuração do SSH de acordo com as boas práticas (desativar login root, bloquear passwords, migrar para chaves criptográficas)
+
+Para aplicar as boas práticas de segurança, é necessário fazer:
+- Desativação do login do utilizador root (PermitRootLogin no);  
+- Desativação da autenticação por palavra-passe (PasswordAuthentication no);  
+- Obrigatoriedade do uso de chaves criptográficas (PubkeyAuthentication yes).
+
+ ![image alt]()
+ 
+### 3.2 Aplicar patches de segurança relevantes identificados durante a triagem
+
+Foi efetuada o comando `sudo apt update && sudo apt upgrade -y` que faz a atualização do sistema para corrigir vulnerabilidades conhecidas mas este não obteve resultado pois não houve conexão à internet.  
+
+ ![image alt]()
+ 
+### 3.3 Validação - Correr a ferramenta Lynis para atestar a melhoria da postura de segurança global do host  
+
+Foi digitado o comando `sudo lynis audit system` mas o output diz que não há conexão a internet, por isso não foi possível a execução do comando. É possível visualizar que houve uma tentativa de instalar o `lynis` mas sem sucesso.  
+
+ ![image alt]()
+
+
  
 
  
