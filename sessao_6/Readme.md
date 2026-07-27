@@ -65,7 +65,7 @@ Para aplicar as boas práticas de segurança, é necessário fazer:
 - Desativação da autenticação por palavra-passe (PasswordAuthentication no);  
 - Obrigatoriedade do uso de chaves criptográficas (PubkeyAuthentication yes).
 
- ![image alt]()
+ ![image alt](https://github.com/evacatarina/M5_Linux_e_Ciberseguranca_Skodji-Digital/blob/91313427bb87af44a05aed0e416c2e08dd47d261/sessao_6/fase%203%2C1.png)
  
 ### 3.2 Aplicar patches de segurança relevantes identificados durante a triagem
 
