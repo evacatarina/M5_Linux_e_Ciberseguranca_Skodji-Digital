@@ -31,7 +31,7 @@ No sistema cliente, foi gerado um par de chaves assimétricas utilizando o algor
 
 A chave pública foi copiada para o utilizador no servidor alvo para permitir a autenticação criptográfica.  
 
-![image alt]()
+![image alt](https://github.com/evacatarina/M5_Linux_e_Ciberseguranca_Skodji-Digital/blob/78459fda92774920372b0e44819e7b965476b8d2/sessao_4/fase%203.jpeg)
 
 ---
 
