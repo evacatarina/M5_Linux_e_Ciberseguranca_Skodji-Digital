@@ -11,7 +11,7 @@ Proteger o canal de gestão remota de um servidor Ubuntu, eliminando a autentica
 
 Para realizar este exercício utilizei comandos como: `sudo adduser aluno` para criar novo utilizador "aluno" no servido, `sudo usermod -aG sudo aluno` adicionar o utilizador ao grupo sudo e para garantir a criação e permissões corretas do diretório .ssh no servidor os comandos: `sudo su - aluno`, `mkdir -p ~/.ssh`, `chmod 700 ~/.ssh`, `touch ~/.ssh/authorized_keys` e `chmod 600 ~/.ssh/authorized_keys`. 
 
-![image alt]()
+![image alt](https://github.com/evacatarina/M5_Linux_e_Ciberseguranca_Skodji-Digital/blob/6026718e013c5ba2b39e58718bdebeecbe0d4c2f/sessao_4/add%20user.jpeg)
 
 ---
 
