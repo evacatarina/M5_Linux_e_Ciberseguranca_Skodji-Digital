@@ -38,7 +38,17 @@ Foi digitado o comando `nmap-sV localhost` mas o output diz que não há conexã
   ![image alt](https://github.com/evacatarina/M5_Linux_e_Ciberseguranca_Skodji-Digital/blob/332efbbcf0b59039f77bb6e1a9ad49b596869f5a/sessao_6/fase%201.2.png)  
 
   Para o comando `sudo cat /etc/shadow | awk -F: '($2==""){print $1}`que verifica contas sem palavra-passe: nenhum utilizador sem password foi identificado.  
-  Para o comando `cat ~/.ssh/authorized_keys` que mostra as chaves SSH Autorizadas: foram identificadas 4 chaves públicas ativas (`amiOpenVPN`, `cmnatic`, `saqib.shabbir` e `eu-west-3-vuln-vms`). É recomendado a revisão e remoção de chaves não reconhecidas para impedir acessos remotos não autorizados.
+  Para o comando `cat ~/.ssh/authorized_keys` que mostra as chaves SSH Autorizadas: foram identificadas 4 chaves públicas ativas (`amiOpenVPN`, `cmnatic`, `saqib.shabbir` e `eu-west-3-vuln-vms`). É recomendado a revisão e remoção de chaves não reconhecidas para impedir acessos remotos não autorizados.  
+
+  ---
+
+ ## Fase 2: Contenção
+
+### Ativar a firewall UFW, bloqueando todas as portas que não sejam estritamente necessárias para o negócio
+
+Para a realização dessa fase, foram usadas os seguintes comandos: `sudo ufw default deny incoming`, `sudo ufw allow 22/tcp` e `sudo ufw enable`.
+
+ ![image alt]()  
  
 
  
