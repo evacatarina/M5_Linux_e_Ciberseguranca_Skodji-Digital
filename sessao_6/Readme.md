@@ -2,7 +2,7 @@
 ## Desafio Prático Integrador — Mini-CTF Defensivo Linux
 ### Contexto  
 Auditoria e enrijecimento do servidor Ubuntu ("Linux Agency")
-Relatório Técnico de Auditoria e Mitigação — Mini-CTF Defensivo Linux
+
 ---
 
 ## Fase 1: Identificação e Triagem
