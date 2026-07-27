@@ -46,6 +46,8 @@ Foi aplicado as seguintes alterações:
 
 ![image alt](https://github.com/evacatarina/M5_Linux_e_Ciberseguranca_Skodji-Digital/blob/647aeefaa0a8192eba5b1b465a6d4887a66fa0a9/sessao_4/fase%204.jpeg)  
 
+![image alt](https://github.com/evacatarina/M5_Linux_e_Ciberseguranca_Skodji-Digital/blob/8b7200ff0cccd055b2e4b891a3a0346640d137f1/sessao_4/fase%204.1%20ant.jpeg)
+
 ![image alt](https://github.com/evacatarina/M5_Linux_e_Ciberseguranca_Skodji-Digital/blob/f06ac8e5874b97f71fe770f5c5ee4318b677a7ae/sessao_4/fase%204.1.jpeg)
 
 ---
