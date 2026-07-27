@@ -78,6 +78,10 @@ Após a confirmação sem erros de sintaxe, o serviço SSH foi reiniciado.
 
 Num novo terminal (mantendo a sessão original aberta por segurança), foi testado o acesso utilizando a chave privada e a nova porta configurada.  
 
+![image alt](https://github.com/evacatarina/M5_Linux_e_Ciberseguranca_Skodji-Digital/blob/841dc99c8cbbdf805d606a44243d8b98932d7618/sessao_4/fase%207%20ant.jpeg)  
+
+Caso o output der erro como na imagem acima, executa os seguintes passos: `sudo systemctl stop ssh.socket`, `sudo systemctl disable ssh.socket`, `sudo systemctl restart ssh` e `sudo systemctl status ssh`.  
+
 ![image alt](https://github.com/evacatarina/M5_Linux_e_Ciberseguranca_Skodji-Digital/blob/0cc0d07a413c6ea0950b916076407c78d4d1143e/sessao_4/fase%207.jpeg)
 
 
