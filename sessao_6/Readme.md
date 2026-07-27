@@ -16,10 +16,10 @@ Para verificar os serviços e portas ativos no sistema, foram executados os coma
 
 Com o output desse comando foi possível analisar as Portas e Serviços:  
 Portas expostas externamente (0.0.0.0):  
-  Porta 22/tcp (SSH) — Ativa para gestão remota;  
-  Porta 80/tcp (HTTP) — Servidor Web ativo na rede.
+Porta 22/tcp (SSH) — Ativa para gestão remota;  
+Porta 80/tcp (HTTP) — Servidor Web ativo na rede.
 Serviços locais (Loopback 127.0.0.1):  
-  Porta 5901/tcp (VNC) e 631/tcp (CUPS Printer) a rodar localmente.  
+Porta 5901/tcp (VNC) e 631/tcp (CUPS Printer) a rodar localmente.  
 Como recomendação, é necessário que a firewall UFW deva garantir o bloqueio de tráfego de entrada em todas as portas não essenciais (como a porta 80, se o objetivo for manter apenas acesso administrativo por SSH na porta 22).  
 
 
