@@ -56,7 +56,7 @@ Foi aplicado as seguintes alterações:
 
 Antes de reiniciar o serviço, foi executada a verificação de sintaxe para garantir que não existiam erros no ficheiro de configuração.  
 
-![image alt]()
+![image alt](https://github.com/evacatarina/M5_Linux_e_Ciberseguranca_Skodji-Digital/blob/17eef28cfb813ce221d0b8d50250d8b93304129d/sessao_4/fase%205.jpeg)
 
 ---
 
