@@ -71,7 +71,7 @@ Para aplicar as boas práticas de segurança, é necessário fazer:
 
 Foi efetuada o comando `sudo apt update && sudo apt upgrade -y` que faz a atualização do sistema para corrigir vulnerabilidades conhecidas mas este não obteve resultado pois não houve conexão à internet.  
 
- ![image alt]()
+ ![image alt](https://github.com/evacatarina/M5_Linux_e_Ciberseguranca_Skodji-Digital/blob/598ad998b63f332c0009f95b3634a8f916f1a7bf/sessao_6/sudo%20updt%20upgrt.png)
  
 ### 3.3 Validação - Correr a ferramenta Lynis para atestar a melhoria da postura de segurança global do host  
 
