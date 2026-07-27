@@ -85,7 +85,7 @@ Foi digitado o comando `sudo lynis audit system` mas o output diz que não há c
 
 Output da verificação ufw status verbose: Este passo serve para guardar num ficheiro de texto o estado da firewall UFW, provando a configuração das regras de segurança corretamente. Em vez de apenas ver o resultado no ecrã do terminal, é possível redirecionar esse resultado para o ficheiro ufw-rules.txt dentro da pasta sessao-06/.  
 
- ![image alt]()
+ ![image alt](https://github.com/evacatarina/M5_Linux_e_Ciberseguranca_Skodji-Digital/blob/e4f126a938b4382154f4143201db7a1ae19d2ee9/sessao_6/ufw%20status%20verbose.png)
 
  A configuração SSH atualizado.
 
