@@ -28,7 +28,7 @@ Foi digitado o comando `nmap-sV localhost` mas o output diz que não há conexã
 
   ![image alt](https://github.com/evacatarina/M5_Linux_e_Ciberseguranca_Skodji-Digital/blob/99e5b6f5bb4f226c096b5eae295c59e24c467e3b/sessao_6/nmap%201.png)
 
-  ![image alt]()
+  ![image alt](https://github.com/evacatarina/M5_Linux_e_Ciberseguranca_Skodji-Digital/blob/b4a0420671503959941951e08ffd0354174bd512/sessao_6/nmap%202.png)
   
 
  ### 1.2 Auditoria de Contas: procurar por utilizadores com permissões excessivas, contas sem palavra-passe associada ou chaves públicas suspeitas em `authorized_keys`  
