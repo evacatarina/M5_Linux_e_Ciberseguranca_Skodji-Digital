@@ -89,7 +89,7 @@ Output da verificação ufw status verbose: Este passo serve para guardar num fi
 
  A configuração SSH atualizado.
 
- ![image alt]()
+ ![image alt](https://github.com/evacatarina/M5_Linux_e_Ciberseguranca_Skodji-Digital/blob/2d589269713f59d23d1f46f7aa95cf491fa2877a/sessao_6/ssh%20config.png)
  
 
  
