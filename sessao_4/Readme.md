@@ -21,7 +21,7 @@ Para realizar este exercício utilizei comandos como: `sudo adduser aluno` para 
 
 No sistema cliente, foi gerado um par de chaves assimétricas utilizando o algoritmo Ed25519.
 
-![image alt]()
+![image alt](https://github.com/evacatarina/M5_Linux_e_Ciberseguranca_Skodji-Digital/blob/0e6f7f150e28234cf8d72927f435a0b0f9b63440/sessao_4/fase%202.jpeg)
 
 ---
 
