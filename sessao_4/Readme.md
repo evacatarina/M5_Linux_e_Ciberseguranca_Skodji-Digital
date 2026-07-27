@@ -80,10 +80,10 @@ Após a confirmação sem erros de sintaxe, o serviço SSH foi reiniciado.
 
 Num novo terminal (mantendo a sessão original aberta por segurança), foi testado o acesso utilizando a chave privada e a nova porta configurada.  
 
-![image alt](https://github.com/evacatarina/M5_Linux_e_Ciberseguranca_Skodji-Digital/blob/841dc99c8cbbdf805d606a44243d8b98932d7618/sessao_4/fase%207%20ant.jpeg)  
+![image alt](https://github.com/evacatarina/M5_Linux_e_Ciberseguranca_Skodji-Digital/blob/0cc0d07a413c6ea0950b916076407c78d4d1143e/sessao_4/fase%207.jpeg)  
 
-Caso o output der erro como na imagem acima, executa os seguintes passos: `sudo systemctl stop ssh.socket`, `sudo systemctl disable ssh.socket`, `sudo systemctl restart ssh` e `sudo systemctl status ssh`.  
+- Observação:
+Caso de o servidor não atualizar os dados devido ao armazenamento em socket executa os seguintes comandos: `sudo systemctl stop ssh.socket`, `sudo systemctl disable ssh.socket`, `sudo systemctl restart ssh` e `sudo systemctl status ssh` e verifique se o número de portas atualizou.
+Este erro acontece pois o servidor guarda os dados antigos em um armazenamento socket. Fazendo com que a conexão seja executada com os dados antigos ou default em vez das configurações atualizadas.  
 
-![image alt](https://github.com/evacatarina/M5_Linux_e_Ciberseguranca_Skodji-Digital/blob/0cc0d07a413c6ea0950b916076407c78d4d1143e/sessao_4/fase%207.jpeg)
-
-
+![image alt](https://github.com/evacatarina/M5_Linux_e_Ciberseguranca_Skodji-Digital/blob/841dc99c8cbbdf805d606a44243d8b98932d7618/sessao_4/fase%207%20ant.jpeg)
