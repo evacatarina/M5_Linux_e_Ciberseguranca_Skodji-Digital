@@ -17,4 +17,4 @@ Para verificar os serviços e portas ativos no sistema, foram executados os coma
 - `nmap`   
 Foi digitado o comando mas o output diz que não há conexão a internet, por isso não foi possível a execução do comando. 
 
-![image alt](https://github.com/evacatarina/M5_Linux_e_Ciberseguranca_Skodji-Digital/blob/99e5b6f5bb4f226c096b5eae295c59e24c467e3b/sessao_6/nmap%201.png)
+  ![image alt](https://github.com/evacatarina/M5_Linux_e_Ciberseguranca_Skodji-Digital/blob/99e5b6f5bb4f226c096b5eae295c59e24c467e3b/sessao_6/nmap%201.png)
