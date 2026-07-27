@@ -1,7 +1,8 @@
 # Laboratório — Sessão 4
 ## Gestão Segura de Acessos Remotos SSH em Linux
 ### Contexto  
-Proteger o canal de gestão remota de um servidor Ubuntu, eliminando a autenticação tradicional por palavra-passe e migrando para autenticação criptográfica via chave Ed25519, além de alterar a porta padrão do serviço SSH.
+Proteger o canal de gestão remota de um servidor Ubuntu, eliminando a autenticação tradicional por palavra-passe e migrando para autenticação criptográfica via chave Ed25519, além de alterar a porta padrão do serviço SSH.  
+O Ambiente Virtual utilizado foi o KillerCoda Ubuntu Playground.  
 
 ---
 
